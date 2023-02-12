@@ -19,13 +19,13 @@
     /* ============= HEADER ============= */
     .header {
         padding-top: 24px;
-        padding-bottom: 28px;
+        padding-bottom: 27px;
     }
     .menu-list {
         margin-left: 76px;
     }
     .menu-link {
-        padding-bottom: 32px;
+        padding-bottom: 31px;
     }
     .contacts-list {
         flex-direction: row;

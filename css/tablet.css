@@ -6,21 +6,19 @@
     
     /* ============= HEADER ============= */
     .header {
-        padding-top: 16px;
+        padding-top: 17px;
         padding-bottom: 16px;
     }
-
     .menu-list {
         display: flex;
         align-items: center;
         margin-left: 120px;
         gap: 40px;
     }
-
     .menu-link {
         position: relative;
         padding-top: 16px;
-        padding-bottom: 28px;
+        padding-bottom: 26px;
 
         font-weight: 500;
         font-size: 16px;
@@ -63,8 +61,8 @@
         font-style: normal;
         font-weight: 400;
         font-size: 12px;
-        line-height: 1.3;
-        letter-spacing: 0.04;
+        line-height: 1.33;
+        letter-spacing: 0.04em;
         color: var(--text);
 
         transition: color var(--transition-dur) var(--transition-timing-func);
@@ -168,6 +166,7 @@
     /* ============= MODAL WINDOW ============= */
     .modal {
         width: 408px;
+        /* min-height: 586px; */
     }
 }
 
